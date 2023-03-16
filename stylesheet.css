@@ -54,7 +54,14 @@ a {
   display: inline-block;
   border-radius: 10px;
   text-align: center;
+  box-shadow: 0 7px #020239;
 }
+.btn-signup:active{
+    color:#d2b993;
+    position: relative;
+    top:7px;
+    box-shadow: none;
+  }
 .our-service{
   background-color: #b78f51;
 }
