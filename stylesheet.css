@@ -24,10 +24,10 @@ a {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-image: url(bg.jpg);
   background-size: cover;
-  color: white;
-  text-align: left;
+  color: rgb(15, 13, 13);
+  text-align: justify;
 }
 
 .top-wrapper h1 {
@@ -35,8 +35,8 @@ a {
   font-size: 45px;
   letter-spacing: 7px;
   margin-bottom: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
 .top-wrapper p {
   opacity: 0.7;
   margin-bottom: 3px;
@@ -53,20 +53,26 @@ a {
   border-radius: 10px;
   text-align: center;
 }
+.our-service{
+  background-color: #b78f51;
+}
+.our-service h1{
+  text-align: center;
+}
 
 
 
 header {
-  height: 65px;
+  height: 55px;
   width: 100%;
-  background-color: rgba(200, 200, 216, 0.9);
+  background-color: #d2b993;
   position :fixed;
   top: 0;
   z-index: 10;
 }
 
 .logo {
-  width: 80px;
+  width: 70px;
   margin-top: 0px;
 }
 
